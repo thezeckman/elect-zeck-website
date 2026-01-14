@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-simple">
+      <img src="/images/logo-white.png" alt="Rich Zeck for Commissioner" class="footer-logo-img">
+
+      <div class="footer-links-simple">
+        <a href="/about/">About</a>
+        <a href="/issues/">Issues</a>
+        <a href="/get-involved/">Get Involved</a>
+        <a href="/contact/">Contact</a>
+        {{ with .Site.Params.email }}
+        <a href="mailto:{{ . }}">{{ . }}</a>
+        {{ end }}
+      </div>
+
+      <a href="https://secure.anedot.com/zeck-for-commissioner/donate" class="btn btn-primary footer-donate" target="_blank" rel="noopener">Donate</a>
+    </div>
+
+    <p class="footer-tagline-centered">Proven Leadership. Ready to Serve.</p>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ now.Year }} Rich Zeck for Commissioner. All rights reserved.</p>
+      <p class="footer-disclaimer">Paid for by Rich Zeck for Commissioner</p>
+    </div>
+  </div>
+</footer>

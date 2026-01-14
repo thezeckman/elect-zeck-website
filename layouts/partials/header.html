@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="container">
+    <nav class="nav">
+      <a href="/" class="logo">
+        <img src="/images/logo-primary.png" alt="Rich Zeck for Pitt County Commissioner - District 6" class="logo-img">
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-menu">
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a href="{{ .URL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+
+      <a href="https://secure.anedot.com/zeck-for-commissioner/donate" class="btn btn-primary nav-cta" target="_blank" rel="noopener">Donate</a>
+    </nav>
+  </div>
+</header>

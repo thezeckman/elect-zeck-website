@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+<section class="page-header">
+  <div class="container">
+    {{/* Display short title (before |) or full title if no | */}}
+    {{ $displayTitle := .Title }}
+    {{ if strings.Contains .Title "|" }}
+      {{ $displayTitle = index (split .Title "|") 0 | strings.TrimSpace }}
+    {{ end }}
+    <h1>{{ $displayTitle }}</h1>
+    {{ if not .Params.hide_header_description }}
+    {{ with .Params.description }}
+    <p class="lead">{{ . }}</p>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+    <div class="content-narrow">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+<!-- Get Involved CTA -->
+<section class="section section-navy">
+  <div class="container text-center">
+    <h2>Ready to Support Rich Zeck?</h2>
+    <p class="lead" style="max-width: 600px; margin: 0 auto var(--spacing-xl); opacity: 0.9;">Join the campaign to bring integrity back to District 6.</p>
+
+    <div class="hero-ctas" style="justify-content: center;">
+      <a href="/get-involved/" class="btn btn-primary btn-lg">Volunteer</a>
+      <a href="/get-involved/#yard-sign" class="btn btn-outline-white btn-lg">Request a Yard Sign</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

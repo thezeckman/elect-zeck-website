@@ -1,0 +1,161 @@
+{{ define "main" }}
+
+<!-- Simple Page Header - Title Only -->
+<header class="page-header-simple">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+
+<!-- Intro Section: Image left, text right -->
+<section class="section">
+  <div class="container">
+    <div class="about-section" style="padding: 0;">
+      <div class="about-image">
+        <picture>
+          <source srcset="/images/about-intro.webp" type="image/webp">
+          <img src="/images/about-intro.jpg" alt="Rich and Michele Zeck" loading="lazy">
+        </picture>
+      </div>
+      <div class="about-content">
+        <h2>Who is Rich Zeck?</h2>
+        <p>Rich grew up in Michigan, where he built a career in business and taught at Cornerstone University. Over a decade ago, he and his wife Michele made a deliberate choice to move to Pitt County—specifically to lead the Council on Aging and serve eastern North Carolina's seniors.</p>
+        <p>What started as a job became a calling. Rich and Michele put down roots, and Rich threw himself into the community—visiting 50 churches in 50 weeks, knocking on every door in Simpson, and building relationships across every background.</p>
+        <p>His philosophy is simple: God, Spouse, Family. Do what's right, not who's right. That's how he leads at home, at work, and in office.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pull Quote 1 -->
+<section class="pull-quote-full">
+  <div class="container">
+    <blockquote>I sat down with Democrats, African Americans, the elderly, hard line Republicans and disengaged voters. I increased turnout and unseated a mayor who had held the position for more than 20 years.</blockquote>
+    <cite>— Rich Zeck</cite>
+  </div>
+</section>
+
+<!-- Mayor Section: Text left, image right -->
+<section class="section-alt">
+  <div class="container">
+    <div class="about-section reverse" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+      <div class="about-content">
+        <span class="award-badge">Bishop Levi S. Murray Award Recipient</span>
+        <h2>Mayor of Simpson, NC</h2>
+        <p>In 2017, Rich had lived in North Carolina for just 18 months. He ran anyway—personally visiting every household in Simpson, sitting down with Democrats, Republicans, the elderly, and disengaged voters alike. He unseated an incumbent who had held the position for over 20 years.</p>
+        <p>The previous administration had left the town in financial disarray. Rich rebuilt the reserves, implemented fiscally conservative budgeting, and has been re-elected three more times. His ability to win across party lines isn't politics—it's proof that treating people with respect and dignity works.</p>
+        <ul class="highlight-list">
+          <li>Rebuilt town reserves after previous mismanagement</li>
+          <li>Expanded infrastructure for sustainable growth</li>
+          <li>Represents Simpson on the ENC Alliance Board of Directors</li>
+          <li>Four consecutive election victories since 2017</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <picture>
+          <source srcset="/images/about-leadership.webp" type="image/webp">
+          <img src="/images/about-leadership.jpg" alt="Rich Zeck speaking after receiving the Bishop Levi S. Murray Ministries Outstanding Dedication and Commitment Award" loading="lazy">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Council on Aging Section: Image left, text right -->
+<section>
+  <div class="container">
+    <div class="about-section" style="padding-top: var(--spacing-3xl); padding-bottom: var(--spacing-3xl);">
+      <div class="about-image">
+        <picture>
+          <source srcset="/images/about-seniors.webp" type="image/webp">
+          <img src="/images/about-seniors.jpg" alt="Rich Zeck with Mary at the Pitt County Council on Aging" loading="lazy">
+        </picture>
+      </div>
+      <div class="about-content">
+        <span class="award-badge">NC Senior Center of the Year 2021</span>
+        <h2>Pitt County Council on Aging</h2>
+        <p>Rich relocated to Pitt County over 10 years ago specifically to lead the Council on Aging. Under his direction, the organization has transformed into one of the premier senior service providers in North Carolina.</p>
+        <p>During COVID-19, while other senior centers across the state shut down or reduced services, Rich's team never missed a single day of meal delivery. They raised $1.6 million for facility expansion during the height of the pandemic—opening a new facility ahead of schedule and under budget.</p>
+        <ul class="highlight-list">
+          <li>Grew from 1 to 6 senior wellness centers across Pitt County</li>
+          <li>350-400 hot meals delivered daily through Meals on Wheels</li>
+          <li>850 seniors served each week across all programs</li>
+          <li>Ernest Messer Award from NC Division of Aging (2020)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pull Quote 2 -->
+<section class="pull-quote-full red">
+  <div class="container">
+    <blockquote>We are delivering a meal, but we are also delivering hope, encouragement, fellowship, and human contact. Senior hunger and isolation is a much more serious issue that confronts our community than people are aware of.</blockquote>
+    <cite>— Rich Zeck</cite>
+  </div>
+</section>
+
+<!-- Awards & Recognition Section -->
+<section class="section-alt">
+  <div class="container" style="padding: var(--spacing-3xl) 0;">
+    <h2 class="text-center">Awards & Recognition</h2>
+    <div class="awards-grid">
+      <div class="award-card">
+        <div class="award-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+        </div>
+        <h4>NC Senior Center of the Year</h4>
+        <p>2021</p>
+      </div>
+      <div class="award-card">
+        <div class="award-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+        </div>
+        <h4>Ernest Messer Award</h4>
+        <p>NC Division of Aging, 2020</p>
+      </div>
+      <div class="award-card">
+        <div class="award-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+        <h4>Bishop Levi S. Murray Award</h4>
+        <p>Outstanding Dedication & Commitment</p>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <a href="/get-involved/" class="btn btn-secondary btn-lg">Join Rich's Campaign</a>
+    </div>
+  </div>
+</section>
+
+<!-- What Colleagues Say -->
+<section class="section-alt">
+  <div class="container" style="padding: var(--spacing-3xl) 0;">
+    <h2 class="text-center">What Colleagues Say</h2>
+    <div style="max-width: 700px; margin: var(--spacing-xl) auto 0; display: flex; flex-direction: column; gap: var(--spacing-lg);">
+      <blockquote style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); font-style: italic; color: var(--gray-600); margin: 0;">
+        "Rich is a passionate, visionary leader with the ability to see the big picture while organizing operations and daily activities to reach the goal."
+      </blockquote>
+      <blockquote style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); font-style: italic; color: var(--gray-600); margin: 0;">
+        "Rich has a positive 'can do' attitude and is able to work well with people from many different backgrounds and experience levels."
+      </blockquote>
+      <blockquote style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); font-style: italic; color: var(--gray-600); margin: 0;">
+        "Rich is not only an excellent leader, but also has great teamwork skills. Rich is someone who has the best interests of the organization at heart, as well as the people in it."
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="about-cta">
+  <div class="container">
+    <h2>Join Rich's Campaign</h2>
+    <p style="margin-bottom: var(--spacing-xl); opacity: 0.9;">Help bring proven leadership to District 6.</p>
+    <div class="cta-buttons">
+      <a href="/get-involved/" class="btn btn-primary btn-lg">Get Involved</a>
+      <a href="/issues/" class="btn btn-outline-white btn-lg">See the Issues</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

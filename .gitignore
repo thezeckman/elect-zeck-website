@@ -1,0 +1,30 @@
+# Internal planning/research docs
+CLAUDE.md
+IDEAS.md
+PLAN.md
+KEYWORD-RESEARCH-REPORT.md
+SEO-RESEARCH-SUPPLEMENT.md
+RICH-ZECK-NEWS-COVERAGE.md
+RICH-ZECK-TIMELINE.md
+
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo lock file
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak

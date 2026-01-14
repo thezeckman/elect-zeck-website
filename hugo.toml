@@ -1,0 +1,64 @@
+baseURL = "https://zeckforcommissioner.com/"
+languageCode = "en-us"
+title = "Rich Zeck for Pitt County Commissioner - District 6"
+
+# Build settings
+enableRobotsTXT = true
+enableGitInfo = false
+
+[params]
+  description = "Rich Zeck is running for Pitt County Commissioner, District 6. Mayor of Simpson, community leader, and advocate for rural Pitt County."
+  author = "Rich Zeck Campaign"
+  keywords = "Rich Zeck, Pitt County Commissioner, District 6, Simpson NC, Pitt County, North Carolina"
+
+  # Brand colors
+  primaryNavy = "#1a365d"
+  primaryLight = "#2c5282"
+  secondaryRed = "#c53030"
+  secondaryDark = "#9b2c2c"
+  accentGold = "#d69e2e"
+
+  # Social media
+  facebook = ""
+  twitter = ""
+
+  # Contact
+  email = "zeckforcommissioner@gmail.com"
+  phone = ""
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Issues"
+    url = "/issues/"
+    weight = 3
+  [[menu.main]]
+    name = "Get Involved"
+    url = "/get-involved/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
