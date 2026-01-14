@@ -195,11 +195,28 @@ Rich Zeck is running for Pitt County Commissioner District 6. He is the four-ter
 
 ## Key Election Dates
 
-| Date | Event |
-|------|-------|
-| **February 6, 2026** | Voter registration deadline |
-| **February 12-28, 2026** | Early voting period |
-| **March 3, 2026** | Republican Primary |
+<table class="volunteer-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Event</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>February 6, 2026</strong></td>
+      <td>Voter registration deadline</td>
+    </tr>
+    <tr>
+      <td><strong>February 12-28, 2026</strong></td>
+      <td>Early voting period</td>
+    </tr>
+    <tr>
+      <td><strong>March 3, 2026</strong></td>
+      <td>Republican Primary</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
