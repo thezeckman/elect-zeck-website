@@ -1853,9 +1853,11 @@ body {
 
 .volunteer-table {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   margin: var(--spacing-xl) 0;
   font-size: 0.95rem;
+  table-layout: fixed;
 }
 
 .volunteer-table thead {
@@ -1908,6 +1910,24 @@ body {
   .volunteer-table th:nth-child(2),
   .volunteer-table td:nth-child(2) {
     display: none;
+  }
+
+  .volunteer-table {
+    font-size: 0.875rem;
+  }
+
+  .volunteer-table th,
+  .volunteer-table td {
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .volunteer-table td:first-child {
+    width: 40%;
+  }
+
+  .volunteer-table td:last-child {
+    width: 60%;
+    word-wrap: break-word;
   }
 }
 
