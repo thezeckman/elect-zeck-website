@@ -1922,12 +1922,17 @@ body {
   }
 
   .volunteer-table td:first-child {
-    width: 40%;
+    width: 45%;
+    word-break: break-word;
   }
 
   .volunteer-table td:last-child {
-    width: 60%;
-    word-wrap: break-word;
+    width: 55%;
+    word-break: break-word;
+  }
+
+  .volunteer-table th {
+    font-size: 0.8rem;
   }
 }
 
