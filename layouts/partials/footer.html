@@ -11,7 +11,14 @@
         {{ end }}
       </div>
 
-      <a href="https://secure.anedot.com/zeck-for-commissioner/donate" class="btn btn-primary footer-donate" target="_blank" rel="noopener">Donate</a>
+      <div class="footer-actions">
+        {{ with .Site.Params.facebook_url }}
+        <a href="{{ . }}" class="social-link" target="_blank" rel="noopener" aria-label="Follow Rich Zeck on Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        {{ end }}
+        <a href="https://secure.anedot.com/zeck-for-commissioner/donate" class="btn btn-primary footer-donate" target="_blank" rel="noopener">Donate</a>
+      </div>
     </div>
 
     <p class="footer-tagline-centered">Proven Leadership. Ready to Serve.</p>

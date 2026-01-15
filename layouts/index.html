@@ -128,7 +128,7 @@
       <h2>Join the Campaign</h2>
       <p class="lead">Help bring proven leadership to District 6.</p>
 
-      <div class="cta-icons">
+      <div class="cta-icons{{ with .Site.Params.facebook_url }} has-social{{ end }}">
         <a href="https://secure.anedot.com/zeck-for-commissioner/donate" class="cta-icon-link" target="_blank" rel="noopener">
           <div class="cta-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
@@ -153,6 +153,14 @@
           </div>
           <span>Contact Us</span>
         </a>
+        {{ with .Site.Params.facebook_url }}
+        <a href="{{ . }}" class="cta-icon-link" target="_blank" rel="noopener">
+          <div class="cta-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </div>
+          <span>Facebook</span>
+        </a>
+        {{ end }}
       </div>
     </div>
   </div>

@@ -223,6 +223,15 @@ body {
 .logo-img {
   height: 60px;
   width: auto;
+  min-width: 0; /* Allow logo to shrink if needed */
+  flex-shrink: 1;
+}
+
+/* Smaller logo on very small phones */
+@media (max-width: 400px) {
+  .logo-img {
+    height: 50px;
+  }
 }
 
 /* Legacy text logo styles (keep for footer) */
@@ -271,6 +280,15 @@ body {
   order: 2;
   font-size: 0.875rem;
   padding: var(--spacing-sm) var(--spacing-md);
+  flex-shrink: 0; /* Don't shrink the button */
+}
+
+/* Smaller donate button on very small phones */
+@media (max-width: 400px) {
+  .nav-cta {
+    font-size: 0.75rem;
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
 }
 
 .nav-toggle {
@@ -994,6 +1012,34 @@ body {
   color: var(--accent-gold);
 }
 
+.footer-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--accent-gold);
+  border: 2px solid var(--accent-gold);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-fast);
+}
+
+.social-link:hover {
+  background-color: var(--accent-gold);
+  color: var(--primary-navy);
+}
+
+.social-link svg {
+  width: 22px;
+  height: 22px;
+}
+
 .footer-donate {
   white-space: nowrap;
 }
@@ -1444,10 +1490,26 @@ body {
   margin: 0 auto;
 }
 
+/* When Facebook is added, make it 5 columns on desktop, center the 5th */
+.cta-icons.has-social {
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 950px;
+}
+
 @media (max-width: 768px) {
   .cta-icons {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-xl);
+  }
+
+  /* With 5 icons, center the last one on mobile */
+  .cta-icons.has-social {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-icons.has-social .cta-icon-link:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
   }
 }
 

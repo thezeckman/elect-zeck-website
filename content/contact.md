@@ -17,13 +17,6 @@ Have a question about Rich Zeck's campaign for Pitt County Commissioner District
 
 **Email:** zeckforcommissioner@gmail.com
 
-**Phone:** [PLACEHOLDER: campaign phone]
-
-**Mail:**
-Rich Zeck for Commissioner
-[PLACEHOLDER: campaign mailing address]
-Simpson, NC 27879
-
 ---
 
 ## Contact Form

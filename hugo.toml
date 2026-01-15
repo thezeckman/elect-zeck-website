@@ -19,8 +19,7 @@ enableGitInfo = false
   accentGold = "#d69e2e"
 
   # Social media
-  facebook = ""
-  twitter = ""
+  facebook_url = "https://www.facebook.com/profile.php?id=61585565240856"
 
   # Contact
   email = "zeckforcommissioner@gmail.com"

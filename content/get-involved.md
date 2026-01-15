@@ -134,12 +134,6 @@ Not in District 6? You can still help:
 - Share Rich's story: the GOP recommended him, the Board ignored it, now voters decide
 - Connect the campaign with community leaders you know
 
-### Follow the Campaign
-
-- **Facebook:** [PLACEHOLDER: Facebook URL]
-- **Twitter/X:** [PLACEHOLDER: Twitter handle]
-- **Instagram:** [PLACEHOLDER: Instagram handle]
-
 ---
 
 ## Why Your Help Matters
@@ -199,7 +193,6 @@ Get campaign updates, event invitations, and election reminders:
 Questions about volunteering or events?
 
 **Email:** zeckforcommissioner@gmail.com
-**Phone:** [PLACEHOLDER: campaign phone]
 
 [Contact us →](/contact/)
 
