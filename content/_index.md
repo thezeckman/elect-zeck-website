@@ -1,6 +1,6 @@
 ---
 title: "Rich Zeck for Pitt County Commissioner District 6"
-description: "Rich Zeck is running for Pitt County Commissioner District 6. Mayor of Simpson, Council on Aging Director. Proven leadership for rural Pitt County."
+description: "Your proven leader, running for Pitt County Commissioner District 6. Elect Zeck!"
 keywords: ["Rich Zeck", "Pitt County Commissioner", "District 6", "Simpson NC", "Pitt County"]
 ---
 
